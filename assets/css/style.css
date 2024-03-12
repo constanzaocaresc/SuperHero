@@ -1,0 +1,40 @@
+/*Header*/
+nav.navbar.navbar-expand-lg.bg-body-tertiary{
+    color: white;
+    padding: 0;
+    margin: 0;
+    justify-content: flex-start;
+}
+div.container-fluid#nav{
+    background-color: #353942;
+    display: flex;
+    justify-content: flex-start;
+}
+a.navbar-brand{
+    color: white;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+img#logo-sp{
+    width: 2.5em;
+    margin: .5em;
+}
+div#header{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   padding: 1em;
+}
+
+/*MAIN*/
+#num-hero{
+    width: 40em;
+}
+div#formulario{
+    margin:25em;
+}
+button.btn.btn-primary{
+    margin-top: 1em;
+}
