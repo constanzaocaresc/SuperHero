@@ -1,4 +1,8 @@
 /*Header*/
+header{
+    display: flex;
+    flex-direction: column;
+}
 nav.navbar.navbar-expand-lg.bg-body-tertiary{
     color: white;
     padding: 0;
@@ -30,7 +34,8 @@ div#header{
 
 /*MAIN*/
 #num-hero{
-    width: 40em;
+    width: 35em;
+    margin-right: 1em;
 }
 div#formulario{
     margin:25em;
@@ -38,3 +43,17 @@ div#formulario{
 button.btn.btn-primary{
     margin-top: 1em;
 }
+#check{
+    display: flex;
+    align-items: center;
+}
+/*MENSAJE DE ERROR*/
+#msj-error{
+    color: red;
+    display: none;
+}
+
+i.fa-solid.fa-check.fa-lg{
+    display: none;
+}
+
